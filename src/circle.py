@@ -7,6 +7,7 @@ def area(r):
     # Возвращаемое значение:
     #   math.pi * r * r: искомая площадь круга
 
+
     if type(r) is not int:
         raise TypeError("Argument должен быть int")
 
